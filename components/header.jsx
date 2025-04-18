@@ -29,8 +29,8 @@ export default async function Header() {
           <Image
             src={"/logo.png"}
             alt="Neuro Navi Logo"
-            width={200}
-            height={60}
+            width={300}
+            height={200}
             className="h-12 py-1 w-auto object-contain"
           />
         </Link>

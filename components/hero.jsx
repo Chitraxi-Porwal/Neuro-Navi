@@ -30,7 +30,7 @@ const HeroSection = () => {
     <section className="w-full pt-36 md:pt-48 pb-10">
       <div className="space-y-6 text-center">
         <div className="space-y-6 mx-auto">
-          <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
+          <h1 className="text-6xl font-bold md:text-6xl lg:text-7xl xl:text-8xl bg-clip-text text-transparent bg-[url('/A.jpg')] bg-cover bg-center">
             Your AI Career Coach for
             <br />
             Professional Success
@@ -46,7 +46,7 @@ const HeroSection = () => {
               Get Started
             </Button>
           </Link>
-          <Link href="https://www.youtube.com/roadsidecoder">
+          <Link href="https://www.youtube.com">
             <Button size="lg" variant="outline" className="px-8">
               Watch Demo
             </Button>
@@ -55,7 +55,7 @@ const HeroSection = () => {
         <div className="hero-image-wrapper mt-5 md:mt-0">
           <div ref={imageRef} className="hero-image">
             <Image
-              src="/banner.jpeg"
+              src="/A1.jpg"
               width={1280}
               height={720}
               alt="Dashboard Preview"
